@@ -45,7 +45,7 @@ def start_with?(array, char)
 end 
   
 def find_a(array)
-  array.select do |strings| 
+  array.collect do |strings| 
     if strings[0] == "a" 
       strings
     end
