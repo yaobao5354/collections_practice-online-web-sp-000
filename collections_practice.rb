@@ -32,6 +32,6 @@ def reverse_array(array)
   return new_array
 end
 
-def kesha_maker
+def kesha_maker(array)
   new_array = array.each {|word| word[3] = "$"}
 end 
