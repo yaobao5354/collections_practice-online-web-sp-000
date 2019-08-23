@@ -44,5 +44,5 @@ end
   
 def find_a(array)
   array.collect{|strings| start_with(string, 
-  "a")
+  "a")}
 end 
