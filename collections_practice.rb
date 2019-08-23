@@ -36,16 +36,9 @@ def kesha_maker(array)
   new_array = array.each{|word| word[2] = "$"}
 end 
 
-def start_with?(array, char)
-  if array[0] == char 
-    return array
-  else 
-    
-  end
-end 
   
 def find_a(array)
-  array.collect do |strings| 
+  array.select do |strings| 
     if strings[0] == "a" 
       strings
     end
