@@ -15,14 +15,13 @@ def sort_array_char_count(array)
 end 
 
 def swap_elements(array)
-  new_array = array
+  new_array = array.collect{|a| a}
   array.each_with_index do |element, index|
     if index == 1 
       new_array[2] = element
     elsif index == 2
       new_array[1] = element
     end
-    binding.pry
   end
   new_array
 end 
