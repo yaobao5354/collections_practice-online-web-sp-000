@@ -45,5 +45,5 @@ def start_with?(array, char)
 end 
   
 def find_a(array)
-  array.select{|strings| if strings[0] == "a"}
+  array.select{|strings| if strings[0] == "a" end}
 end 
