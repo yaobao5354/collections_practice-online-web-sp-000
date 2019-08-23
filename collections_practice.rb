@@ -26,3 +26,9 @@ def swap_elements(array)
   new_array
 end 
 
+def reverse_array(array)
+  array.sort do |a, b|
+    if a == b
+      0
+    else a 
+end
