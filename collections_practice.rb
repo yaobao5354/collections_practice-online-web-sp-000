@@ -43,6 +43,6 @@ def start_with?(array, char)
 end 
   
 def find_a(array)
-  array.collect{|strings| start_with?(string, 
+  array.collect{|strings| start_with?(strings, 
   "a")}
 end 
