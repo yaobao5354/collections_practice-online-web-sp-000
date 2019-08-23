@@ -28,6 +28,6 @@ end
 
 def reverse_array(array)
   new_array = array.collect{|a| a}
-  array.each_with_index {|integer, index| new_array[array.length - index] = integer}
+  array.each_with_index {|integer, index| new_array[array.length-1 - index] = integer}
   return new_array
 end
