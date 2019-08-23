@@ -44,3 +44,13 @@ def find_a(array)
     end
   end 
 end 
+
+def sum_array(array)
+  counter = 0
+  sum = 0
+  while counter < array.length do 
+    sum + array[counter]
+    counter +=1
+  end
+  return sum
+end
