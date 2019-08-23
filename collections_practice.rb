@@ -30,5 +30,10 @@ def reverse_array(array)
   array.sort do |a, b|
     if a == b
       0
-    else a 
+    elsif a > b 
+      -1
+    else a < b
+      1
+    end
+  end 
 end
