@@ -40,7 +40,7 @@ def start_with?(array, char)
   if array[0] == char 
     return array
   else 
-    return nil
+    return false
   end
 end 
   
