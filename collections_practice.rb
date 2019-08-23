@@ -31,3 +31,7 @@ def reverse_array(array)
   array.each_with_index {|integer, index| new_array[array.length-1 - index] = integer}
   return new_array
 end
+
+def kesha_maker
+  new_array = array.each {|word| word[3] = "$"}
+end 
