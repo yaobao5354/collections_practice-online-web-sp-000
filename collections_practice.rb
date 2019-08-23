@@ -28,10 +28,10 @@ end
 
 def reverse_array(array)
   new_array = array.collect{|a| a}
-  array.each_with_index {|integer, index| new_array[array.length-1 - index] = integer}
+  array.each_with_index{|integer, index| new_array[array.length-1 - index] = integer}
   return new_array
 end
 
 def kesha_maker(array)
-  array.collect {|word| word[2] = "$"}
+  new_array = array.each{|word| word[2] = "$"}
 end 
