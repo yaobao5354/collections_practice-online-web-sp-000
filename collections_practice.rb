@@ -27,13 +27,7 @@ def swap_elements(array)
 end 
 
 def reverse_array(array)
-  array.sort do |a, b|
-    if a == b
-      0
-    elsif a > b 
-      -1
-    else a < b
-      1
-    end
-  end 
+  new_array = array.collect{|a| a}
+  array.each_with_index {|integer, index| new_array[array.length - index] = integer}
+  return new_array
 end
