@@ -47,7 +47,7 @@ end
 def find_a(array)
   array.select do |strings| 
     if strings[0] == "a" 
-      return strings
+      strings
     end
   end 
 end 
