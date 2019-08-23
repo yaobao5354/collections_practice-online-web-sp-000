@@ -48,6 +48,6 @@ def find_a(array)
   array.select do |strings| 
     if strings[0] == "a" 
       return strings
-  end
-end 
+    end
+  end 
 end 
