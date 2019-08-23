@@ -37,7 +37,7 @@ def kesha_maker(array)
 end 
 
 def start_with?(array, char)
-  if array[0] = char 
+  if array[0] == char 
     return array
   end
 end 
